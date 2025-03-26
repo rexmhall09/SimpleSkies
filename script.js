@@ -87,7 +87,7 @@ function toggleMode() {
 	const newTheme = currentTheme === 'dark.css' ? 'light.css' : 'dark.css';
 	document.getElementById('theme-stylesheet').setAttribute('href', newTheme);
 	const themeToggleImage = document.getElementById('themeToggle').querySelector('img');
-	themeToggleImage.src = newTheme === 'dark.css' ? '/img/changetheme-dark.png' : '/img/changetheme-light.png';
+	themeToggleImage.src = newTheme === 'dark.css' ? '/changetheme-dark.png' : '/changetheme-light.png';
 }
 
 document.getElementById('themeToggle').addEventListener('click', toggleMode);
