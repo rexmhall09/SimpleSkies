@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SimpleSkies</title>
+		<link rel="stylesheet" id="theme-stylesheet" href="dark.css">
+</head>
+<body>
+		<div class="container">
+				<h1>SimpleSkies</h1>
+				<div class="autocomplete">
+						<input type="text" maxlength="3" id="airportInput" autocomplete="off" placeholder="Enter Airport Code (e.g. JFK)">
+						<div id="suggestions"></div>
+				</div>
+				<button id="findInfo">Find Info</button>
+				<div id="airportInfo"></div>
+		</div>
+		<div id="themeToggle" class="theme-toggle">
+				<img src="/img/changetheme-dark.png" width="50px" alt="Change Theme">
+		</div>
+		<script src="script.js"></script>
+</body>
+</html>
